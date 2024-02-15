@@ -1,0 +1,27 @@
+{
+  "name": "rinha-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/server.ts",
+    "migrate": "node-pg-migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^20.11.17",
+    "eslint": "^8.56.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.0",
+    "fastify": "^4.26.0",
+    "node-pg-migrate": "^6.2.2",
+    "pg": "^8.11.3",
+    "zod": "^3.22.4"
+  }
+}
